@@ -7,3 +7,7 @@ let food ={
 }
 food.water=5;
 console.log(food.water);
+let greeting='Hello ';
+let name='Al Amin';
+console.log(greeting+name);
+document.write(greeting+name);
