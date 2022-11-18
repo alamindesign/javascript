@@ -20,3 +20,12 @@ document.write(num.toString());
 console.log(num.toString());
 let hello='140';
 document.write(hello=parseInt(hello,7));
+function mistake(mName){
+    console.log("You have pressed wrong key "+mName)
+}
+mistake('Nayma');
+mistake('Al Amin');
+function addMath(n,n1){
+    console.log(n+n1);
+}
+addMath(2,5);
