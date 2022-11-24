@@ -63,21 +63,27 @@
 // document.write(n1+"-"+n2+"="+sub+"<br/>");
 // document.write(n1+"/"+n2+"="+div+"<br/>");
 // document.write(n1+"*"+n2+"="+multiple);
-function sayHello(){
-    console.log("Hello");
-}
-sayHello()
-let sayBye= function(){
-    console.log("Bye");
-}
-sayBye();
-function sing(song){
-    console.log(song);
-}
-sing("Laaaa deee daaa");
-sing("Backstreets back alright");
-sing("Don't repeate yourself");
-function multiply(a,b){
-    a*b;
-}
-console.log(multiply(5,10));
+// function sayHello(){
+//     console.log("Hello");
+// }
+// sayHello()
+// let sayBye= function(){
+//     console.log("Bye");
+// }
+// sayBye();
+// function sing(song){
+//     console.log(song);
+// }
+// sing("Laaaa deee daaa");
+// sing("Backstreets back alright");
+// sing("Don't repeate yourself");
+// function multiply(a,b){
+//     a*b;
+// }
+// console.log(multiply(5,10));
+
+let a=10;
+let b=20;
+document.write(a+b);
+document.write(a++,a);
+//b=b+1 / b+=1; both are same.
