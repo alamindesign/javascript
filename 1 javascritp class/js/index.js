@@ -118,22 +118,29 @@
 //         document.write("<br/> Invalid");
 // }
 
-var char=prompt("Enter a character: ").toUpperCase();
-switch(char) {
-    case 'A':
-        document.write("<br/> A has been pressed.");
-        break;
-    case 'B': 
-        document.write("<br/> B has been pressed");
-        break;
-    case 'C': 
-        document.write("<br/> C has been pressed");
-        break;
-    default: 
-        document.write("<br/> You didn't press A or B or C. So >>> Invalid");
-}
+// var char=prompt("Enter a character: ").toUpperCase();
+// switch(char) {
+//     case 'A':
+//         document.write("<br/> A has been pressed.");
+//         break;
+//     case 'B': 
+//         document.write("<br/> B has been pressed");
+//         break;
+//     case 'C': 
+//         document.write("<br/> C has been pressed");
+//         break;
+//     default: 
+//         document.write("<br/> You didn't press A or B or C. So >>> Invalid");
+// }
 
-var i=1;
-for(i=1;i<=10;i++){
-    document.write("<br/>"+i);
-}
+// let num=Number(prompt("Enter a date: "));
+// switch(num){
+//     case 1:
+//         alert("It's first day of the month");
+//         break;
+//     case 2: 
+//         alert("It's second day of the month let's go for a tour.");
+//         break;
+//     default:
+//         alert("Don't think about the date, Do whatever you want to do.");
+// }
