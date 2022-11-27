@@ -97,5 +97,38 @@
 //     document.write("The number is between 100 to 199");
 // else
 //     document.write("Less then 100");
- var digit=Number(prompt("Enter a number: "));
-digit>0? document.write("<br/>Positive<br/>"): document.write("<br>Negetive</br>");
+//  var digit=Number(prompt("Enter a number: "));
+// digit>0? document.write("<br/>Positive<br/>"): document.write("<br>Negetive</br>");
+
+// var num=prompt("Enter the Number: ");
+// var t =parseInt(num /10);
+// switch(t) {
+//     case 10:
+//     case 9:
+//     case 8:
+//         document.write("<br/> A+");
+//         break;
+//     case 7: 
+//         document.write("<br/> A");
+//         break;
+//     case 6: 
+//         document.write("<br/> A-");
+//         break;
+//     default: 
+//         document.write("<br/> Invalid");
+// }
+
+var char=prompt("Enter a character: ").toUpperCase();
+switch(char) {
+    case 'A':
+        document.write("<br/> A has been pressed.");
+        break;
+    case 'B': 
+        document.write("<br/> B has been pressed");
+        break;
+    case 'C': 
+        document.write("<br/> C has been pressed");
+        break;
+    default: 
+        document.write("<br/> You didn't press A or B or C. So >>> Invalid");
+}
