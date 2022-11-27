@@ -88,12 +88,14 @@
 //document.write(a++,a);
 //b=b+1 / b+=1; both are same.//
 
-let Num=Number(prompt("Enter The number"));
-if(Num>300)
-    document.write("Invalid");
-else if(Num>=200 && Num<=300)
-    document.write("The Number is between 200 to 300");
-else if(Num>=100 && Num<=199)
-    document.write("The number is between 100 to 199");
-else
-    document.write("Less then 100");
+// let Num=Number(prompt("Enter The number"));
+// if(Num>300)
+//     document.write("Invalid");
+// else if(Num>=200 && Num<=300)
+//     document.write("The Number is between 200 to 300");
+// else if(Num>=100 && Num<=199)
+//     document.write("The number is between 100 to 199");
+// else
+//     document.write("Less then 100");
+ var digit=Number(prompt("Enter a number: "));
+digit>0? document.write("<br/>Positive<br/>"): document.write("<br>Negetive</br>");
