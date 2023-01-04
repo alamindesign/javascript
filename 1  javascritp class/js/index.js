@@ -144,3 +144,21 @@
 //     default:
 //         alert("Don't think about the date, Do whatever you want to do.");
 // }
+
+// let i = 1;
+// while(i <= 10){
+//     document.write(" "+i);
+//     i++;
+// }
+
+// let i = 1;
+// do{
+//     document.write(i+" ");
+//     i++;
+// }while(i<=15);
+
+function squre(num){
+    let num;
+    document.write("The square is:"+ num*num);
+}
+square(4)
