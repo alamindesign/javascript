@@ -1,0 +1,25 @@
+.textStyle{
+    color: royalblue;
+    letter-spacing: 10px;
+    word-spacing: 20px;
+    font-weight: bolder;
+    font-style: italic;
+}
+.bg{
+    display: inline block;
+    line-height: 100px;
+    background: linear-gradient(to right, red, yellow);
+    color: rgb(245, 248, 250);
+    border: 1px solid whitesmoke;
+    border-radius: 25px;
+    text-align: center;
+}
+.btn{
+    border: 1px solid red;
+    border-radius: 10px;
+    color: royalblue;
+    display: inline;
+    padding: 10px;
+    background: antiquewhite;
+    font-weight: bold;
+}
