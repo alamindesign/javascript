@@ -5,8 +5,7 @@
 :root{
     --gold: #d4af37;
 }
-
-h1{
+.HEAD{
     color: var(--gold);
 }
 button{
@@ -40,5 +39,12 @@ li{
 input{
     width: 94%;
     padding: 10px;
+    color: #d4af37;
+}
+.textStyle{
+    border: 2px solid var(--gold);
+    padding: 5px;
+    width: fit-content;
+    border-radius: 50px;
     color: #d4af37;
 }
