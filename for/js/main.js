@@ -19,6 +19,14 @@ for(let x of student){
     };
 }
 document.write("<h1>For Each function</h1>");
-names.forEach(function(x){
+names.forEach((x)=>{
+    document.write(x + "<br/>")
+})
+document.write("<h1>Map</h1>");
+let numbers = [2,20,33,25];
+var squareNumbers = numbers.map((x)=>{
+    return x*x;
+})
+squareNumbers.forEach((x)=>{
     document.write(x + "<br/>")
 })
